@@ -3,7 +3,6 @@
  * @domain imgair.net
  * @domain imgblaze.net
  * @domain imgfrost.net
- * @domain imgouhmde.sbs
  * @domain imgouskel.sbs
  * @domain pixsera.net
  */
@@ -11,12 +10,10 @@ _.register({
   rule: {
     host: [
       /^cloudgallery\.net$/,
-      /^img[a-z]{2,10}\.(sbs|shop)$/,
+      /^img[a-z]{2,10}\.sbs$/,
       /^imgair\.net$/,
       /^imgblaze\.net$/,
       /^imgfrost\.net$/,
-      /^pic[a-z]{2,10}\.(sbs|shop)$/,
-      /^pix[a-z]{2,10}\.sbs$/,
       /^pixsera\.net$/,
     ],
   },
